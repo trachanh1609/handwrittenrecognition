@@ -25,7 +25,9 @@ SECRET_KEY = 'h^^nsnu=uapt8+^np2+c@2r=l5@mih@bt-oe0ck^1xjlftp1x4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'handwrittenrecognition.azurewebsites.net',
+]
 
 
 # Application definition
