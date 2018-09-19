@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'handwrittenrecognition.azurewebsites.net',
+    'localhost',
 ]
 
 
