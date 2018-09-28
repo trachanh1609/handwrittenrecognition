@@ -1,2 +1,3 @@
 def handle_uploaded_file(file):
-    return 5
+
+    return file

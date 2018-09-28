@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please select a file to upload and get prediction</h1>
+    <form action="/api/make_prediction/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="image" required/>
+        <input type="submit" value="Upload"></input>
+    </form>
+</body>
+</html>
